@@ -1,0 +1,26 @@
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.container-cards-flexbox {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.card-flexitem {
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid rgb(210, 210, 210);
+  box-shadow: 0 0 5px, rgb(230, 230, 230)
+  padding: 20px;
+  width: 200px;
+}
+.card-flexitem img {
+  height: 100px;
+}
+.card-flexitem p {
+  opacity: 0.6;
+}
+

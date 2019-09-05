@@ -1,0 +1,42 @@
+.banner-flexbox {
+  background-image: url(https://images.pexels.com/photos/172289/pexels-photo-172289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 200px 0;
+}
+.banner-flexitem {
+  width: 50%;
+  margin: auto;
+}
+
+.banner-flexitem p {
+  font-weight: bold;
+  color: white;
+  box-shadow: 0 0 12px, rgba(0,0,0,0.3);
+}
+
+.banner-flexitem h1 {
+  font-weight: bold;
+  color: #f0e9e9;
+}
+
+.banner-link {
+  padding: 15px 25px;
+  margin: 50px;
+  background-color: #aa7070;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s ease;
+  margin: 0;
+}
+
+.banner-link:hover {
+  opacity: 1;
+  text-decoration: none;
+  background: #c19191;
+  color: white;
+}
